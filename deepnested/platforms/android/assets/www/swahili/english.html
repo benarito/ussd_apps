@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Access Mobile</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+</head>
+<body>
+<div id="app" class="app">
+    <div data-role="page" class="jqm-demos ui-responsive-panel" id="panel-fixed-page1" data-url="panel-fixed-page1">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h1>Access Mobile</h1>
+            <!--  <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a> -->
+
+        </div><!-- /header -->
+        <div data-role="content" class="jqm-content">
+            <div class="image" align="center">
+                <!--<img src="img/access_mobile.png" width="100%" height="100%" alt="logo" align="absmiddle" class="myImage" align="center">-->
+                <!--<img src="img/med.jpg" width="320" height="200" alt="logo" align="absmiddle" class="myImage">-->
+                <h1>Mobile Banking</h1>
+            </div>
+
+            <div>
+                <a href="balance_enquiry.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Balance Enquiry</a>
+                <a href="mini_statement.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Mini Statement</a>
+                <a href="airtime.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Airtime</a>
+                <a href="utility_payment.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Utility Payment</a>
+                <a href="funds_transfer.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Funds Transfer</a>
+                <a href="withdraw_cash.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Withdraw Cash</a>
+                <a href="full_statement.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Full Statement</a>
+                <a href="cheque_book_request.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Cheque Book Request</a>
+                <a href="settings.html" data-role="button"data-theme="c" data-icon="carat-r" data-iconpos="right" data-transition="slide">Settings</a>
+            </div>
+            <div id="home">
+                <div id="app-status-div">
+                    <ul id="app-status-ul">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div data-demo-html="#panel-fixed-page1" data-demo-css="true"></div><!--/demo-html -->
+            <!--<a onclick="showConfirm(); return false;" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>-->
+        </div><!-- /content -->
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div class="nav" data-role="navbar">
+
+            </div>
+        </div><!-- /footer -->
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--<script type="text/javascript" src="js/PushNotification.js"></script>-->
+    <!--<script type="text/javascript" src="js/index.js"></script>-->
+
+</div>
+</body>
+</html>
